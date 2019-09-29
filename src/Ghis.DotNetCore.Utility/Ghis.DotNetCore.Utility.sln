@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ghis.DotNetCore.Utility", "Ghis.DotNetCore.Utility\Ghis.DotNetCore.Utility.csproj", "{9C78EC56-D415-44A0-AEF3-81513B03D089}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ghis.DotNetCore.Utility", "Ghis.DotNetCore.Utility\Ghis.DotNetCore.Utility.csproj", "{9C78EC56-D415-44A0-AEF3-81513B03D089}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B0F794D5-B842-47CF-B08A-961D7ABDB6C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C78EC56-D415-44A0-AEF3-81513B03D089} = {B0F794D5-B842-47CF-B08A-961D7ABDB6C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99FF10E6-2263-4434-81E2-6B4D83F438CB}

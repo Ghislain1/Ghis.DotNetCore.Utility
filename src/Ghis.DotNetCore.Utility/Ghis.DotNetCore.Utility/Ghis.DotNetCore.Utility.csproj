@@ -18,4 +18,8 @@
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="sr\" />
+  </ItemGroup>
 </Project>

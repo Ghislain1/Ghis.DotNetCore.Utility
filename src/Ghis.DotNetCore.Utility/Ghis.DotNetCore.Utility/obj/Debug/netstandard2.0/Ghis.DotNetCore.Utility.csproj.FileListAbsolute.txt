@@ -1,7 +1,0 @@
-C:\Users\Zoe\Desktop\___Z_Todelte\Ghis.DotNetCore.Utility\src\Ghis.DotNetCore.Utility\Ghis.DotNetCore.Utility\bin\Debug\netstandard2.0\Ghis.DotNetCore.Utility.deps.json
-C:\Users\Zoe\Desktop\___Z_Todelte\Ghis.DotNetCore.Utility\src\Ghis.DotNetCore.Utility\Ghis.DotNetCore.Utility\bin\Debug\netstandard2.0\Ghis.DotNetCore.Utility.dll
-C:\Users\Zoe\Desktop\___Z_Todelte\Ghis.DotNetCore.Utility\src\Ghis.DotNetCore.Utility\Ghis.DotNetCore.Utility\bin\Debug\netstandard2.0\Ghis.DotNetCore.Utility.pdb
-C:\Users\Zoe\Desktop\___Z_Todelte\Ghis.DotNetCore.Utility\src\Ghis.DotNetCore.Utility\Ghis.DotNetCore.Utility\obj\Debug\netstandard2.0\Ghis.DotNetCore.Utility.AssemblyInfoInputs.cache
-C:\Users\Zoe\Desktop\___Z_Todelte\Ghis.DotNetCore.Utility\src\Ghis.DotNetCore.Utility\Ghis.DotNetCore.Utility\obj\Debug\netstandard2.0\Ghis.DotNetCore.Utility.AssemblyInfo.cs
-C:\Users\Zoe\Desktop\___Z_Todelte\Ghis.DotNetCore.Utility\src\Ghis.DotNetCore.Utility\Ghis.DotNetCore.Utility\obj\Debug\netstandard2.0\Ghis.DotNetCore.Utility.dll
-C:\Users\Zoe\Desktop\___Z_Todelte\Ghis.DotNetCore.Utility\src\Ghis.DotNetCore.Utility\Ghis.DotNetCore.Utility\obj\Debug\netstandard2.0\Ghis.DotNetCore.Utility.pdb
