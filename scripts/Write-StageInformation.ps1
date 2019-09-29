@@ -3,7 +3,10 @@ function Write-StageInformation {
         [Parameter(mandatory = $true)]
         [string]$Text
     )
- 
+    # New Paragraph,
+    Write-Host '  '
+    
+
     $Frame = ""
     $Text = "Build Stage: $Text"
     for ($i = 0; $i -lt $Text.length; $i++) { $Frame += '=' }

@@ -2,11 +2,10 @@
 #
 #                        		ChocolateyNuGet project @ Ghislain 
 #
-##					 Powershell Script to 
+##					                 Powershell Script to 
 #:: 
 #
-#   Inspired:
-#       * https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit/blob/master/Scripts/GenerateThemesWikiMarkdown.ps1
+# 
 ##################################################################################
 
 Clear-Host
@@ -61,15 +60,13 @@ ForEach ( $pro in $projects) {
 
 # Build the whole solution using dotnet command
 Write-StageInformation -Text 'Solution building...'
-$BuildExpression = "dotnet msbuild /p:Configuration=Debug /p:Platform='Any CPU'"
+$BuildExpression = "dotnet build ./Ghis.DotNetCore.Utility/Ghis.DotNetCore.Utility.csproj -c Release -v d"
 Invoke-Expression  $BuildExpression
 Write-CustomInformation -Text "Best way to use Invoke-Expression Command in Powershell Script has been done"  
 
 # Change to most recent location
 Pop-Location
-Write-StageInformation -Text 'Website for docs copying...'
-$SiteItems = Get-ChildItem $SiteDir  
-$SiteItems | Copy-Item -Destination $DocsDir -Force   -Verbose 
+ 
 
 
 # Inform user that solution finisched successfully
