@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Ghis.DotNetCore.Utility</id>
+    <version>1.0.0</version>
+    <authors>Ghis Z.</authors>
+    <owners>Ghis Z.</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/Ghislain1/Ghis.DotNetCore.Utility</projectUrl>
+    <description>Package Description</description>
+    <copyright>@2019</copyright>
+    <repository url="https://github.com/Ghislain1/Ghis.DotNetCore.Utility" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Zoe\Desktop\___Z_Todelte\Ghis.DotNetCore.Utility\src\Ghis.DotNetCore.Utility\Ghis.DotNetCore.Utility\bin\Debug\netstandard2.0\Ghis.DotNetCore.Utility.dll" target="lib\netstandard2.0\Ghis.DotNetCore.Utility.dll" />
+    <file src="C:\Users\Zoe\Desktop\___Z_Todelte\Ghis.DotNetCore.Utility\LICENSE" target="LICENSE" />
+  </files>
+</package>
