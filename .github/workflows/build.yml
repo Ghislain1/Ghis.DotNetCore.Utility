@@ -1,0 +1,21 @@
+name: Build the stuffs
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  Build_Stateless_solution:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: dotnet restore
+
+      - name: Build Stateless solution
+        run: dotnet build  Ghis.DotNetCore.Utility.sln
+
+      - name: Test Stateless
+        run: dotnet test --no-restore --no-build
